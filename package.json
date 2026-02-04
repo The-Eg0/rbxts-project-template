@@ -1,0 +1,32 @@
+{
+  "name": "rbxts-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rbxtsc",
+    "watch": "rbxtsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^3.0.0-types.0",
+    "@rbxts/types": "^1.0.906",
+    "roblox-ts": "^3.0.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@rbxts/charm": "^0.10.0",
+    "@rbxts/lemon-signal": "^1.2.0",
+    "@rbxts/lyra": "^0.6.1",
+    "@rbxts/react": "^17.2.3",
+    "@rbxts/react-charm": "^0.3.0",
+    "@rbxts/react-roblox": "^17.2.3",
+    "@rbxts/ripple": "^0.10.1",
+    "@rbxts/services": "^1.6.0",
+    "@rbxts/sift": "^0.0.11",
+    "@rbxts/t": "^3.2.1",
+    "@rbxts/ui-labs": "^2.4.2"
+  }
+}
